@@ -1,0 +1,65 @@
+
+  /* Register page background and center the form */
+.register-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://media.istockphoto.com/id/1463013729/photo/online-registration-form-for-modish-form-filling.jpg?s=612x612&w=0&k=20&c=Fnx06haU4IHYLcRpy9Po_TBknvBqVjicGuUWkGu8e6Y='); /* change to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Card container for register */
+.register-card {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.register-card h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.register-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Centered Submit button */
+.register-card button {
+  width: 60%;               /* smaller width */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #4f46e5;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto;           /* centers horizontally */
+}
+
+.register-card button:hover {
+  background-color: #e0e7ff;
+}
